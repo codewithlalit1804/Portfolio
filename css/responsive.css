@@ -1,0 +1,182 @@
+@media (max-width: 768px) {
+  /* Header */
+
+  header {
+    padding: 15px 0;
+  }
+
+  .logo {
+    font-size: 22px;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  /* Mobile menu */
+
+  #menu-btn {
+    display: block;
+
+    cursor: pointer;
+
+    font-size: 24px;
+
+    color: #38bdf8;
+  }
+
+  /* Hero */
+
+  .hero {
+    min-height: auto;
+
+    padding-top: 100px;
+
+    padding-bottom: 50px;
+  }
+
+  .hero-content {
+    flex-direction: column-reverse;
+
+    text-align: center;
+
+    gap: 30px;
+  }
+
+  .hero-image img {
+    width: 250px;
+
+    height: 250px;
+  }
+
+  .hero-text h1 {
+    font-size: 35px;
+  }
+
+  .hero-text h2 {
+    font-size: 22px;
+  }
+
+  .hero-text p {
+    font-size: 15px;
+  }
+
+  /* Button */
+
+  .btn {
+    padding: 10px 20px;
+  }
+
+  /* Social Icons */
+
+  .social-icons a {
+    font-size: 22px;
+
+    margin-right: 10px;
+  }
+
+  /* Sections */
+
+  section {
+    padding: 50px 0;
+  }
+
+  .section-title {
+    font-size: 32px;
+  }
+
+  /* About */
+
+  .about-card {
+    flex-direction: column;
+
+    padding: 25px;
+
+    text-align: center;
+
+    gap: 35px;
+  }
+
+  .about-content p {
+    font-size: 15px;
+
+    line-height: 1.6;
+  }
+
+  /* Skills */
+
+  .skills-box {
+    justify-content: center;
+  }
+
+  .skill {
+    padding: 10px 15px;
+
+    font-size: 14px;
+  }
+
+  /* 3D Cube */
+
+  .cube {
+    width: 120px;
+
+    height: 120px;
+  }
+
+  .face {
+    width: 120px;
+
+    height: 120px;
+
+    font-size: 22px;
+  }
+
+  .front {
+    transform: translateZ(60px);
+  }
+
+  .back {
+    transform: rotateY(180deg) translateZ(60px);
+  }
+
+  .right {
+    transform: rotateY(90deg) translateZ(60px);
+  }
+
+  .left {
+    transform: rotateY(-90deg) translateZ(60px);
+  }
+
+  .top {
+    transform: rotateX(90deg) translateZ(60px);
+  }
+
+  .bottom {
+    transform: rotateX(-90deg) translateZ(60px);
+  }
+
+  /* Skills & Projects */
+
+  .skills-grid,
+  .project-grid {
+    grid-template-columns: 1fr;
+
+    gap: 20px;
+  }
+
+  .skill-card,
+  .project-card {
+    padding: 20px;
+  }
+
+  /* Contact */
+
+  form {
+    width: 100%;
+  }
+
+  input,
+  textarea {
+    font-size: 14px;
+  }
+}
