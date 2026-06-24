@@ -83,7 +83,12 @@ document.getElementById("contact-form")
     )
     .then(function(response){
 
-        alert("Message sent successfully!");
+        showPopup();
+
+        setTimeout(()=>{
+            closePopup();
+        },3000);
+
 
         document.getElementById("contact-form").reset();
 
@@ -97,3 +102,19 @@ document.getElementById("contact-form")
     });
 
 });
+
+
+// Success Popup Functions
+
+function showPopup(){
+
+    document.getElementById("successPopup").style.display="flex";
+
+}
+
+
+function closePopup(){
+
+    document.getElementById("successPopup").style.display="none";
+
+}
